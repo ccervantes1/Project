@@ -5,7 +5,7 @@ public class Card {
     private String answer;
 
 
-    public Card(String question, String answer, int interval, boolean isVirgin) {
+    public Card(String question, String answer) {
         this.question = question;
         this.answer = answer;
     }

@@ -1,4 +1,6 @@
+
 import java.util.NoSuchElementException;
+
 
 public class LinkedList<E> implements Stack<E> {
 

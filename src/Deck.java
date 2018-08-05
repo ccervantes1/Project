@@ -11,10 +11,6 @@ public class Deck {
         this.deckList.add(fc);
     }
 
-    public List<?> getDeck() {
-        return this.deckList;
-    }
-
     public Flashcard getCard(int i) {
         return this.deckList.get(i);
     }
