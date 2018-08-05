@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class Study {
+    private StudyType studyType  = new StudyType();
+
+
 }

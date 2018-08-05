@@ -1,11 +1,13 @@
 import java.util.LinkedList;
 
-public class Flashcards {
+public class Main {
     public static void main(String[] args) {
 
-        Flashcards io = new Flashcards();
+        Flashcard io = new Flashcard();
         LinkedList<Card> c = io.getCards();
         for (Card card : c) {
             System.out.println(card.getQuestion());
             System.out.println(card.getAnswer());
         }
+    }
+}

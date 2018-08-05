@@ -1,19 +1,17 @@
 import java.util.LinkedList;
 
-public class Study {
+public class StudyType {
     private Flashcard input1;
     private LinkedList<Card> cardDeck;
     private int time;
-    private int goal;
 
     private static final int EASY = 20;
     private static final int MODERATE = 10;
     private static final int DIFFICULT= 5;
-    public Study() {
+    public StudyType() {
         input1 = new Flashcard();
         cardDeck = input1.getCards();
         time = 0;
-        goal = -1; // set negative to indicate the end of each play
     }
 
     public void setEasy() {
