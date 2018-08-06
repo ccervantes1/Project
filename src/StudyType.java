@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Collections;
 
 public class StudyType {
     private Flashcard input1;
@@ -39,4 +40,9 @@ public class StudyType {
     public int getTime() {
         return time;
     }
-}
+    public void getRandomDeck(){
+        Collections.shuffle(cardDeck);
+
+    }
+
+    }

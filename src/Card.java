@@ -20,6 +20,7 @@ public class Card {
         return this.answer;
     }
 
+
     public void setInterval(int interval) {
         this.interval = interval;
     }
